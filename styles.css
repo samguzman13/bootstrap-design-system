@@ -1,3 +1,18 @@
 body{
-    background-color: #d7b38c;
+    background-color: var(--highlight-color);
+    font-family: var(--primary-font);
+}
+:root{
+    --primary-color: #D9D3B4;
+    --secondary-color: #F2CA52;
+    --highlight-color: #a86b52;
+    --neutral-color: #D9A86C;
+    --text-color: #732C02;
+    --blank: #f8f6f3;
+    --primary-font: "Cormorant Garamond", serif;
+    --secondary-font: "Raleway", sans-serif;
+
+
+
+    
 }
