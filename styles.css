@@ -1,7 +1,11 @@
 body{
-    background-color: var(--highlight-color);
+    background-color: var(--primary-color);
     font-family: var(--primary-font);
+    font-size: 16px;
+
 }
+
+
 :root{
     --primary-color: #D9D3B4;
     --secondary-color: #F2CA52;
@@ -14,6 +18,34 @@ body{
 
     
 }
-    p, a, li, {
+    p, a, li {
         font-family: var(--secondary-font);
+        line-height: 1.6rem;
+        font-size: 1.1rem;
+    
+}
+
+p.italic {
+    font-style: italic;
+}
+
+.emphasized {
+    font-weight: 700;
+}
+
+.btn{
+    font-family: var(--secondary-font);
+    text-transform: lowercase;
+    box-shadow: 10px 10px #808080;
+}
+
+.btn-primary{
+    background-color: var(--secondary-color);
+    border-color: var(--neutral-color)
+
+}
+
+.btn-primary:hover{
+    background-color: var(--neutral-color);
+    border-color: var(--secondary-color);
 }
