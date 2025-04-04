@@ -39,13 +39,10 @@ p.italic {
     box-shadow: 1px 2px #808080;
 }
 
-.btn-primary{
-    background-color: var(--secondary-color);
-    border-color: var(--neutral-color)
-
+.alert{
+    font-family: var(--secondary-font);
 }
 
-.btn-primary:hover{
-    background-color: var(--neutral-color);
-    border-color: var(--secondary-color);
+.navbar-color{
+    background-color:var(--primary-color);
 }
