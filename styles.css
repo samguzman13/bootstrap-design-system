@@ -47,3 +47,6 @@ p.italic {
     background-color: var(--primary-color);
 }
 
+.badge{
+   position:  right;
+}
