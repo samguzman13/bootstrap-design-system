@@ -43,7 +43,7 @@ p.italic {
     font-family: var(--secondary-font);
 }
 
-.navbar-color{
+.navbar{
     background-color: var(--primary-color);
 }
 
